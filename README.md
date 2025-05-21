@@ -2,7 +2,19 @@
 
 A modern mobile wallet application built with React and TypeScript that allows users to view their card balance, transactions, and transaction details.
 
-![Wallet App](https://github.com/user/wallet-app/raw/main/screenshots/wallet-app.png)
+## Screenshots
+
+### Transaction List
+![Transaction List](./screenshots/Transaction_List.png)
+*Main screen showing card balance, payment status, daily points, and transaction history*
+
+### Transaction Detail - Payment
+![Transaction Detail - Payment](./screenshots/Transaction_Detail_Payment.png)
+*Detailed view of a payment transaction showing status, user, and amount information*
+
+### Transaction Detail - Credit
+![Transaction Detail - Credit](./screenshots/Transaction_Detail_Credit.png)
+*Detailed view of a credit transaction with merchant information and cashback percentage*
 
 ## Features
 
@@ -89,8 +101,8 @@ Points are calculated based on the following formula:
 
 1. Clone the repository:
 ```
-git clone https://github.com/yourusername/wallet-app.git
-cd wallet-app
+git clone git@github.com:HeydarliAtabay/walletApp.git
+cd walletApp
 ```
 
 2. Install dependencies:
@@ -125,10 +137,6 @@ The built files will be in the `dist` directory.
 - Add transaction categories
 - Include charts for spending analysis
 - Support for multiple cards and accounts
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
