@@ -107,3 +107,12 @@
     color: #999;
     font-size: 13px;
 }
+
+.chevronRight {
+    display: flex;
+    align-items: center;
+    color: #ccc;
+    margin-left: 10px;
+    font-size: 14px;
+    flex-shrink: 0;
+}

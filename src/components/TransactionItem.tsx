@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import type { IconDefinition } from '@fortawesome/fontawesome-svg-core';
 import * as Icons from '@fortawesome/free-solid-svg-icons';
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import type { Transaction } from '../types';
 import { useWallet } from '../context/WalletContext';
 import { useNavigate } from 'react-router-dom';
@@ -74,6 +75,10 @@ const TransactionItem = ({ transaction }: TransactionItemProps) => {
                 <div className={styles.transactionDate}>
                     {formatDate(transaction.date)}
                 </div>
+            </div>
+
+            <div className={styles.chevronRight}>
+                <FontAwesomeIcon icon={faChevronRight} />
             </div>
         </div>
     );
