@@ -6,14 +6,17 @@ A modern mobile wallet application built with React and TypeScript that allows u
 
 ### Transaction List
 ![Transaction List](./screenshots/Transaction_List.png)
+
 *Main screen showing card balance, payment status, daily points, and transaction history*
 
 ### Transaction Detail - Payment
 ![Transaction Detail - Payment](./screenshots/Transaction_Detail_Payment.png)
+
 *Detailed view of a payment transaction showing status, user, and amount information*
 
 ### Transaction Detail - Credit
 ![Transaction Detail - Credit](./screenshots/Transaction_Detail_Credit.png)
+
 *Detailed view of a credit transaction with merchant information and cashback percentage*
 
 ## Features
