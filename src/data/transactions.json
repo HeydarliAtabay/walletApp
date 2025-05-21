@@ -1,0 +1,119 @@
+[
+    {
+        "id": 1,
+        "type": "payment",
+        "amount": 174.0,
+        "name": "Payment",
+        "description": "From JPMorgan Chase Bank National Association",
+        "date": "2023-09-26",
+        "pending": false,
+        "authorizedUser": "Diana",
+        "icon": "credit-card"
+    },
+    {
+        "id": 2,
+        "type": "payment",
+        "amount": 99.71,
+        "name": "Payment",
+        "description": "From JPMorgan Chase Bank National Association",
+        "date": "2023-09-23",
+        "pending": false,
+        "authorizedUser": null,
+        "icon": "credit-card"
+    },
+    {
+        "id": 3,
+        "type": "payment",
+        "amount": 73.58,
+        "name": "Payment",
+        "description": "From JPMorgan Chase Bank National Association",
+        "date": "2023-09-20",
+        "pending": false,
+        "authorizedUser": null,
+        "icon": "credit-card"
+    },
+    {
+        "id": 4,
+        "type": "credit",
+        "amount": 21.61,
+        "name": "IKEA",
+        "description": "Round Rock, TX",
+        "date": "2023-09-12",
+        "pending": false,
+        "authorizedUser": null,
+        "icon": "shopping-cart",
+        "percentage": "2%"
+    },
+    {
+        "id": 5,
+        "type": "credit",
+        "amount": 73.58,
+        "name": "Target",
+        "description": "Cedar Park, TX",
+        "date": "2023-09-11",
+        "pending": false,
+        "authorizedUser": null,
+        "icon": "shopping-basket",
+        "percentage": "2%"
+    },
+    {
+        "id": 6,
+        "type": "credit",
+        "amount": 14.06,
+        "name": "Apple",
+        "description": "Card Number Used",
+        "date": "2023-09-27",
+        "pending": true,
+        "authorizedUser": "Diana",
+        "icon": "apple",
+        "percentage": "3%"
+    },
+    {
+        "id": 7,
+        "type": "credit",
+        "amount": 3.24,
+        "name": "Apple",
+        "description": "Card Number Used",
+        "date": "2023-09-26",
+        "pending": false,
+        "authorizedUser": "Diana",
+        "icon": "apple",
+        "percentage": "3%"
+    },
+    {
+        "id": 8,
+        "type": "credit",
+        "amount": 7.50,
+        "name": "Airalo",
+        "description": "Online purchase",
+        "date": "2023-09-20",
+        "pending": false,
+        "authorizedUser": null,
+        "icon": "globe",
+        "percentage": null
+    },
+    {
+        "id": 9,
+        "type": "credit",
+        "amount": 22.35,
+        "name": "Starbucks",
+        "description": "Austin, TX",
+        "date": "2023-09-19",
+        "pending": false,
+        "authorizedUser": null,
+        "icon": "coffee",
+        "percentage": "4%"
+    },
+    {
+        "id": 10,
+        "type": "credit",
+        "amount": 45.18,
+        "name": "H-E-B",
+        "description": "Grocery store",
+        "date": "2023-09-18",
+        "pending": false,
+        "authorizedUser": null,
+        "icon": "shopping-cart",
+        "percentage": "5%"
+    }
+]

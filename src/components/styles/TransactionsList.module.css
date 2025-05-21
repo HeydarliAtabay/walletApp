@@ -1,0 +1,21 @@
+.transactionsListContainer {
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.transactionsHeader {
+    margin-bottom: 16px;
+}
+
+.transactionsHeader h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+.transactionsList {
+    max-height: 500px;
+    overflow-y: auto;
+}

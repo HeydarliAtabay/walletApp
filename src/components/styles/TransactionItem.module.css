@@ -1,0 +1,109 @@
+.transactionItem {
+    display: flex;
+    padding: 16px 0;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    position: relative;
+}
+
+.transactionItem:hover {
+    background-color: #f9f9f9;
+}
+
+.transactionIcon {
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+.iconBackground {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.transactionDetails {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.transactionHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    align-items: flex-start;
+}
+
+.transactionName {
+    font-weight: 500;
+    color: #333;
+    font-size: 16px;
+    margin-right: 10px;
+    flex: 1;
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.pendingLabel {
+    color: #ff9800;
+    font-weight: 500;
+}
+
+.authorizedUser {
+    font-weight: 500;
+}
+
+.transactionAmount {
+    font-weight: 500;
+    font-size: 16px;
+    flex-shrink: 0;
+    text-align: right;
+    min-width: 80px;
+}
+
+.paymentAmount {
+    color: #4CAF50;
+}
+
+.creditAmount {
+    color: #000;
+}
+
+.transactionSubDetails {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    align-items: center;
+}
+
+.transactionDescription {
+    color: #666;
+    font-size: 14px;
+    max-width: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.transactionPercentage {
+    color: #666;
+    font-size: 12px;
+    background-color: #f0f0f0;
+    padding: 2px 6px;
+    border-radius: 4px;
+    flex-shrink: 0;
+}
+
+.transactionDate {
+    color: #999;
+    font-size: 13px;
+}

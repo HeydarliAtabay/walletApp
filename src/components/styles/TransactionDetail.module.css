@@ -1,0 +1,168 @@
+.transactionDetailContainer {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #fff;
+    max-width: 680px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header {
+    padding: 15px 0;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.backButton {
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-color: #eaeaea;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+
+.backButton:hover {
+    background-color: #d0d0d0;
+}
+
+.backText {
+    margin-left: 8px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.emptyState {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    font-size: 18px;
+    color: #666;
+}
+
+.transactionAmount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.amount {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.paymentAmount {
+    color: #4CAF50;
+    /* Green for payment */
+}
+
+.creditAmount {
+    color: #000;
+    /* Black for credit/expense */
+}
+
+.merchantName {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.date {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.transactionInfo {
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    padding: 25px;
+    width: 100%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    margin-top: 20px;
+}
+
+.statusSection {
+    margin-bottom: 30px;
+}
+
+.labelValue {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.label {
+    font-weight: 500;
+    color: #666;
+    font-size: 16px;
+}
+
+.value {
+    font-weight: 500;
+    color: #333;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    font-size: 16px;
+}
+
+.pendingStatus {
+    color: #ff9800;
+    /* Orange color for pending status */
+    font-weight: 600;
+}
+
+.approvedStatus {
+    color: #4CAF50;
+    /* Green color for approved status */
+    font-weight: 600;
+}
+
+.statusIcon {
+    margin-right: 6px;
+}
+
+.totalSection {
+    margin-top: 25px;
+    background-color: #f0f7ff;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.totalSection .labelValue {
+    border-bottom: none;
+    padding: 0;
+}
+
+.totalSection .label {
+    font-weight: 600;
+    color: #333;
+    font-size: 20px;
+}
+
+.totalSection .value {
+    font-weight: 600;
+    color: #000;
+    font-size: 20px;
+}
+
+.logoWrapper {
+    margin-bottom: 30px;
+    transform: scale(1.5);
+}

@@ -1,0 +1,19 @@
+.dailyPointsBlock {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.dailyPointsHeader h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.dailyPointsAmount {
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+}

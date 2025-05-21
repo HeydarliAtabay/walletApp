@@ -1,0 +1,29 @@
+.noPaymentDueBlock {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 15px;
+}
+
+.noPaymentDueHeader h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.noPaymentDueContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.noPaymentDueContent p {
+    font-size: 14px;
+    color: #666;
+}
+
+.checkIcon {
+    color: #4caf50;
+}
